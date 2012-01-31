@@ -91,7 +91,7 @@ NumberClass.prototype.sendMessage = function(msg) {
 	}
 	else if (this._type == "tropo") {
 		// The token for your Tropo scripting app (the 'Messaging' token in your application settings).
-		var token = "017cb4ad1de1fb4da5ea41f13da12b8be6bc12afc8139749e192e0e14cd6d6ccb744009260946251330a6914";
+		var token = "...............";
 		// Create a new instance of the Tropo session object.
 		var session = new tropoSession.TropoSession();
 
