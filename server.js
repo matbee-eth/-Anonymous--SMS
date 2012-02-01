@@ -14,13 +14,13 @@ var http = require('http');
 var url = require('url');
 var hashlib = require("hashlib");
 var nexmo = require('./node_modules/nexmo/nexmo.js');
-nexmo.initialize("b650b741","1fb154e1","http");
+nexmo.initialize("....","....","http");
 
 var authToken;
 var C2DM = require('c2dm').C2DM;
 var config = {
-    user: 'invisisms@gmail.com',
-    password: 'Invisisms1',
+    user: '....@....com',
+    password: '.....',
     source: '0.1',
     keepAlive: true
 };
